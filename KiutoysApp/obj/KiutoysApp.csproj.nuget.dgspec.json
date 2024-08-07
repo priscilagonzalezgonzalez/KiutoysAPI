@@ -4,14 +4,76 @@
     "D:\\Documentos\\KiuToys C#\\KiutoysApp\\KiutoysApp.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\KiuToys C#\\DB\\DB.csproj": {
+    "D:\\Documentos\\KiuToys C#\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\KiuToys C#\\DB\\DB.csproj",
-        "projectName": "DB",
-        "projectPath": "D:\\Documentos\\KiuToys C#\\DB\\DB.csproj",
+        "projectUniqueName": "D:\\Documentos\\KiuToys C#\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\Documentos\\KiuToys C#\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\septi\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\KiuToys C#\\DB\\obj\\",
+        "outputPath": "D:\\Documentos\\KiuToys C#\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\septi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Documentos\\KiuToys C#\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Documentos\\KiuToys C#\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\KiuToys C#\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\KiuToys C#\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "D:\\Documentos\\KiuToys C#\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\septi\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\KiuToys C#\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\septi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,14 +104,131 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\KiuToys C#\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\KiuToys C#\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Documentos\\KiuToys C#\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\septi\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\KiuToys C#\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\septi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\KiuToys C#\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\KiuToys C#\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\Documentos\\KiuToys C#\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\septi\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\KiuToys C#\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\septi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Documentos\\KiuToys C#\\Application\\Application.csproj": {
+                "projectPath": "D:\\Documentos\\KiuToys C#\\Application\\Application.csproj"
+              },
+              "D:\\Documentos\\KiuToys C#\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Documentos\\KiuToys C#\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
             },
@@ -106,8 +285,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Documentos\\KiuToys C#\\DB\\DB.csproj": {
-                "projectPath": "D:\\Documentos\\KiuToys C#\\DB\\DB.csproj"
+              "D:\\Documentos\\KiuToys C#\\Application\\Application.csproj": {
+                "projectPath": "D:\\Documentos\\KiuToys C#\\Application\\Application.csproj"
+              },
+              "D:\\Documentos\\KiuToys C#\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\Documentos\\KiuToys C#\\Contracts\\Contracts.csproj"
+              },
+              "D:\\Documentos\\KiuToys C#\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Documentos\\KiuToys C#\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -127,6 +312,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.6, )"
