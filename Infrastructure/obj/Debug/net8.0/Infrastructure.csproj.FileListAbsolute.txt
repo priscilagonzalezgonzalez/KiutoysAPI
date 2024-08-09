@@ -17,3 +17,4 @@ D:\Documentos\KiuToys C#\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.A
 D:\Documentos\KiuToys C#\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
 D:\Documentos\KiuToys C#\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 D:\Documentos\KiuToys C#\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+D:\Documentos\KiuToys C#\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

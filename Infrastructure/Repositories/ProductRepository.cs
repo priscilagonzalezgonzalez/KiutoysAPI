@@ -18,13 +18,20 @@ namespace Infrastructure.Repositories
       return _context.Products.ToList();
     }
 
+    public List<Product> ListAllAvailable()
+    {
+      return _context.Products.Where(x => x.Stock >= 1).ToList();
+    }
+
     public Product GetById(int id)
     {
+      Console.WriteLine($"Attempting to retrieve product: {id}");
       return _context.Products.Find(id);
     }
 
     public void Add(Product product)
     {
+      Console.WriteLine($"Attempting to add product: {product.Title}");
       _context.Products.Add(product);
       _context.SaveChanges();
     }
