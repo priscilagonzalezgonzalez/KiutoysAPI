@@ -22,8 +22,10 @@ var builder = WebApplication.CreateBuilder(args);
 
     builder.Services.AddScoped<IProductRepository, ProductRepository>();
     builder.Services.AddScoped<GetProductByIdUseCase>();
-    //builder.Services.AddScoped<AddProductUseCase>(); Not defined yet
-    //builder.Services.AddScoped<DeleteProductUseCase>();
+    builder.Services.AddScoped<ListAllProductsUseCase>();
+    builder.Services.AddScoped<ListAllAvailableProductsUseCase>();
+    builder.Services.AddScoped<AddProductUseCase>();
+    builder.Services.AddScoped<DeleteProductUseCase>();
     builder.Services.AddScoped<IProductService, ProductService>();
 }
 

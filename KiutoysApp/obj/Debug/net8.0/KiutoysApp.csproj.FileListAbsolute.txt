@@ -116,3 +116,4 @@ D:\Documentos\KiuToys C#\KiutoysApp\bin\Debug\net8.0\Contracts.pdb
 D:\Documentos\KiuToys C#\KiutoysApp\bin\Debug\net8.0\Application.pdb
 D:\Documentos\KiuToys C#\KiutoysApp\bin\Debug\net8.0\Infrastructure.pdb
 D:\Documentos\KiuToys C#\KiutoysApp\bin\Debug\net8.0\Domain.pdb
+D:\Documentos\KiuToys C#\KiutoysApp\obj\Debug\net8.0\KiutoysApp.sourcelink.json

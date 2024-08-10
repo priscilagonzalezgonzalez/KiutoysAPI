@@ -1,1 +1,1 @@
-GET https://localhost:7003/api/products
+GET https://localhost:7003/api/products/all

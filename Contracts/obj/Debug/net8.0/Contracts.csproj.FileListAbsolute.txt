@@ -9,3 +9,4 @@ D:\Documentos\KiuToys C#\Contracts\obj\Debug\net8.0\Contracts.dll
 D:\Documentos\KiuToys C#\Contracts\obj\Debug\net8.0\refint\Contracts.dll
 D:\Documentos\KiuToys C#\Contracts\obj\Debug\net8.0\Contracts.pdb
 D:\Documentos\KiuToys C#\Contracts\obj\Debug\net8.0\ref\Contracts.dll
+D:\Documentos\KiuToys C#\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json

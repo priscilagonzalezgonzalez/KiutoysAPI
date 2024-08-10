@@ -13,3 +13,4 @@ D:\Documentos\KiuToys C#\Application\bin\Debug\net8.0\Domain.dll
 D:\Documentos\KiuToys C#\Application\bin\Debug\net8.0\Domain.pdb
 D:\Documentos\KiuToys C#\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
 D:\Documentos\KiuToys C#\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\Documentos\KiuToys C#\Application\obj\Debug\net8.0\Application.sourcelink.json

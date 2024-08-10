@@ -1,0 +1,10 @@
+POST https://localhost:7003/api/products
+Content-Type: application/json
+
+{
+  "Stock": 2,
+  "Cost": 260.0,
+  "Price": 429.0,
+  "Description": "Cinnamonroll Backpack",
+  "Title": "Cinnamonroll Backpack"
+}

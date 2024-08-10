@@ -3,17 +3,17 @@ using Domain.Entities;
 
 namespace Application.UseCases
 {
-  public class ListAllProductsUseCase
+  public class ListAllAvailableProductsUseCase
   {
     private readonly IProductRepository _productRepository;
-    public ListAllProductsUseCase(IProductRepository productRepository)
+    public ListAllAvailableProductsUseCase(IProductRepository productRepository)
     {
       _productRepository = productRepository;
     }
 
     public List<Product> Execute()
     {
-      return _productRepository.ListAll();
+      return _productRepository.ListAllAvailable();
     }
   }
 }
